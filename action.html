@@ -29,7 +29,7 @@
         margin: 0;
     }
     
-    .custom-button {
+    .custom-button-action {
         background-color: #664ede;
         color: white;
         border: none;
@@ -47,10 +47,12 @@
         box-shadow: 0 4px 15px rgba(102, 78, 222, 0.3);
     }
     
-    .custom-button:hover {
-        background-color: rgba(102, 78, 222, 0.7);
+    .custom-button-action:hover {
+        background-color: rgba(102, 78, 222, 0.9);
         transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(102, 78, 222, 0.4);
+        color: white;
+        background-color: rgba(102, 78, 222, 0.9); /* Color de fondo con opacidad al pasar el ratón */
+
     }
     
     .decoration-element {
@@ -87,6 +89,6 @@
         <div class="cta-container">
                 <h2 class="cta-title">¿Quieres retratar a tu mascota?</h2>
                 <p class="cta-subtitle">Capturamos la personalidad única de tu compañero peludo en un retrato inolvidable. Cada sesión está diseñada para crear momentos especiales.</p>
-                <a href="#reserva" class="custom-button">Reserva</a>
+                <a href="#reserva" class="custom-button-action">Reserva</a>
         </div>
     </section>
