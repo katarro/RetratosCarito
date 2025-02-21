@@ -1,0 +1,92 @@
+<style>
+    .cta-section {
+        padding: 80px 20px;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .cta-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .cta-title {
+        font-size: 2.5em;
+        color: #ffffff;
+        margin: 0;
+        line-height: 1.2;
+    }
+    
+    .cta-subtitle {
+        font-size: 1.2em;
+        color: #ffffff;
+        max-width: 600px;
+        line-height: 1.6;
+        margin: 0;
+    }
+    
+    .custom-button {
+        background-color: #664ede;
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(102, 78, 222, 0.3);
+    }
+    
+    .custom-button:hover {
+        background-color: rgba(102, 78, 222, 0.7);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 78, 222, 0.4);
+    }
+    
+    .decoration-element {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgba(102, 78, 222, 0.2);
+    }
+    
+    .cta-wrapper {
+        position: relative;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    @media (max-width: 768px) {
+        .cta-title {
+            font-size: 2em;
+        }
+        
+        .cta-subtitle {
+            font-size: 1.1em;
+        }
+        
+        .cta-wrapper {
+            padding: 30px 20px;
+        }
+    }
+    </style>
+    
+    <section class="cta-section">
+        <div class="cta-container">
+                <h2 class="cta-title">¿Quieres retratar a tu mascota?</h2>
+                <p class="cta-subtitle">Capturamos la personalidad única de tu compañero peludo en un retrato inolvidable. Cada sesión está diseñada para crear momentos especiales.</p>
+                <a href="#reserva" class="custom-button">Reserva</a>
+        </div>
+    </section>
